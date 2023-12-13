@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const schedule = require("node-schedule");
 
-const cronTimes = ['55 21 * * *','6 0 * * *', '26 0 * * *', '6 10 * * *', '26 10 * * *', '26 1 * * *', '6 1 * * *', '6 12 * * *', '26 12 * * *', '6 13 * * *', '26 13 * * *', '06 22 * * *', '26 22 * * *'];
+const cronTimes = ['6 0 * * *', '26 0 * * *', '6 10 * * *', '26 10 * * *', '26 1 * * *', '6 1 * * *', '6 12 * * *', '26 12 * * *', '6 13 * * *', '26 13 * * *', '06 22 * * *', '26 22 * * *'];
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 
@@ -21,7 +21,7 @@ startBot().then(() => {
     console.log("hi");
 }).catch(err => {
     console.error(err);
-});
+}); 
 
 
 
