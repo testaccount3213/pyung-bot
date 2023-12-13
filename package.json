@@ -1,0 +1,19 @@
+{
+  "name": "pyung-bot",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.10.4",
+    "esbuild": "^0.19.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/node-schedule": "^2.1.5",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "node-schedule": "^2.1.1"
+  },
+  "scripts": {
+    "start": "ts-node src/index.js"
+  }
+}
